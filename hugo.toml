@@ -1,0 +1,4 @@
+baseURL = 'https://halffalse.com/'
+languageCode = 'en-us'
+title = '½!'
+theme = "hugo-theme-monochrome"
