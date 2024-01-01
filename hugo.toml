@@ -1,4 +1,84 @@
-baseURL = 'https://halffalse.com/'
-languageCode = 'en-us'
-title = '½!'
-theme = "hugo-theme-monochrome"
+baseURL = 'https://halfalse.com/'
+languageCode = 'en'
+title = 'halfalse'
+theme = "hermit-v2"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+enableGitInfo = true
+
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+#hasCJKLanguage = true
+
+rssLimit = 20
+
+copyright = "sudorandom"
+enableEmoji = true
+
+[params.author]
+  name = "sudorandom"
+  about = "I code stuff"
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # description = "CHANGE ME SITE DESCRIPTION"
+  # images = [""]
+  themeColor = "#494f5c"
+
+  homeSubtitle = "Backend engineering on display"
+  footerCopyright = "All Rights Reserved"
+  # bgImg = ""
+  gitUrl = "https://github.com/sudorandom/halfalse.com/tree/main"
+
+  justifyContent = false
+
+  relatedPosts = true
+  code_copy_button = true
+
+  homeSubtitlePrinter = true
+  scrollToTop = true 
+  global_mathjax = false
+  readTime = true
+  readTimeSeparator = "CHANGE ME READ TIME"
+  # legacyLayout = false
+  shareSocial = true
+  # googleTagManager = "GTM-XXXXXXXX"
+  
+  [[params.socialLinks]]
+    name = "mastodon"
+    url = "https://joinmastodon.org/"
+
+  [[params.socialLinks]]
+    name = "x"
+    url = "https://twitter.com/"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about-hugo/"
+    weight = 20
